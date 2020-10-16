@@ -1,0 +1,26 @@
+body,
+html { 
+  background: url(image5.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:red;
+}
+button {
+  background-color: ; /* Green */
+  border: none;
+  color: blue;
+  padding: 40px 50px;
+  text-align: center;
+  align-self: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 50px;
+}
+button:hover {
+	background-color:pink;
+	transform: scale(1.8);
+	border-color:blue;
+}
+

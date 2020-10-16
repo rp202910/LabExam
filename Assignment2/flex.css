@@ -1,0 +1,50 @@
+body{
+	background-image: linear-gradient(#008000,#00FFFF,#0000CC);
+  background-color:	#008000;
+  animation: bgcolor 15s infinite
+  }
+.container{
+  display : flex;
+  flex-wrap : wrap;
+  justify-content : center;
+}
+img{
+  width : 450px;
+  height : 350px;
+  margin : 5px;
+  transition : all 2s;
+  box-shadow : 8px 8px 8px #883885;
+}
+img:hover{
+  transform : rotate(30deg);
+  border: solid;
+  box-shadow: 10px 10px 5px #ccc;
+  border-radius:45px 15px 45px;
+  border:2px solid #fff;
+  width: 300px;
+  height: 380px;
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 1;
+}
+
+h1{
+   font-size: 50px; 
+   font-family: "League Gothic", Impact, sans-serif;
+    animation: color-change 2s infinite;
+    text-align: center;
+}
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: blue; }
+    100% { color: black; }
+  }
+
+  .c
+  {
+  	border: 5px outset pink;
+    background-color: lightblue;
+    text-align: center;
+    width:400px;
+    margin:auto;
+  }
